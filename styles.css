@@ -1,0 +1,185 @@
+/* General Styles 
+ body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  
+  }*/
+  body[lang="ar"] {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  body[lang="en"], body[lang="fr"] {
+    direction: ltr;
+    text-align: left;
+  }
+  
+  .language-switcher {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #languageSelect {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .navbar {
+    margin-top: 1rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #0056b3;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .skills-grid, .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .skill-card, .project-card {
+    flex: 1 1 300px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .skill-card:hover, .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Buttons */
+  .contact-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Light Blue */
+    transition: background-color 0.3s ease, transform 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0056b3; /* Darker Blue */
+    transform: scale(1.05);
+  }
+  
+  /* Back to Top Button */
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: none;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  #back-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .hire-me-btn {
+    display: inline-block;
+    padding: 12px 24px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #fff; 
+    text-decoration: none; 
+    text-align: center; 
+    background-color: #007bff; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(93, 16, 83, 0.3); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .hire-me-btn:hover {
+    background-color: #690d69; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 10px rgba(0, 86, 179, 0.4); 
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f1f1f1;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
